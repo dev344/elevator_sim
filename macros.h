@@ -1,0 +1,5 @@
+#define SIMULATOR 0
+#define LIFTS_MOVEMENT 1
+#define PERSON_CREATION 2
+#define PERSON 3
+#define ELEVATOR 4
