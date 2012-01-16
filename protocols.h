@@ -9,10 +9,12 @@ struct PersonMessage{
     int type;
     int val1;
     int val2;
+    float val3;
 };
 
 struct PersonReply{
     int type;
+    int arg;
 };
 
 struct ElevatorMessage{
@@ -20,7 +22,8 @@ struct ElevatorMessage{
 };
 
 struct ElevatorReply{
-    int floor;
+    float floor;
+    int direction;
 };
 
 struct SimulatorMessage{

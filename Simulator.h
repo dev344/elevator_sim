@@ -11,6 +11,9 @@
 #include "EventQueue.h"
 
 class Simulator{
+    private:
+    int removePerson(Person*, int, int);
+
     public:
     deque<Person*> all_people;
     deque< deque<Person*> > waiting_people;

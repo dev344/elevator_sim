@@ -6,7 +6,9 @@
 class Person
 {
     private:
-    int destination;
+    int destinationFloor;
+    int startFloor;
+    int in_elevator;
 
     public: 
     /*
